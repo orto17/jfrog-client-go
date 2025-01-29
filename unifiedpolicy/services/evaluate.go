@@ -52,7 +52,7 @@ func (c *EvaluateService) Evaluate(evaluateRequest *EvaluateRequest) (*EvaluateR
 }
 
 type EvaluateResponse struct {
-	Decision     string `json:"stage"`
+	Decision     string `json:"decision"`
 	Explanations string `json:"explanation"`
 }
 
